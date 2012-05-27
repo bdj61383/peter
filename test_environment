@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require '~/Documents/peter/5-25-12/master_round1.rb' #This will eventually require the "master_list" or something, that will contain the results of every elimination round thus far.  That will allow the 'score' method to be passed an elimination round and return the user's score for that round.
+require '~/Documents/peter/5-25-12/league.rb'
+require '~/Documents/peter/5-25-12/user.rb'
+
+if __FILE__ == $0
+	puts "this is working"
+end
