@@ -9,7 +9,7 @@ module Master_round1
 			c2 = {'survive'=>false, 'immunity'=>false, 'merge'=>false}
 			c3 = {'survive'=>true, 'immunity'=>false, 'merge'=>false}
 			c4 = {'survive'=>true, 'immunity'=>true, 'merge'=>true}
-			e1 = {'c1'=>c1, 'c2'=>c2, 'c3'=>c3, 'c4'=>c4}
+			e1 = {'Tony'=>c1, 'Michael'=>c2, 'Robert'=>c3, 'Sally'=>c4}
 			return e1
 		end
 	end

@@ -6,9 +6,21 @@ class A
 	end
 end
 
+if __FILE__ == $0 
+
 a = A.new
 b = {'key'=>'value'}
 c = {'newkey'=>'newvalue'}
-a = a.hash.merge(b)
-# a = a.hash.update(c)
+
 puts a.class
+puts a.hash
+puts a.hash.class
+puts b
+a.hash = a.hash.merge(b)
+puts a.hash
+puts c
+a.hash = a.hash.merge(c)
+puts a.hash
+
+
+end
