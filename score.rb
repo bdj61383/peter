@@ -116,28 +116,5 @@ module Score
 	end
 end
 
-test = League::League.new
 
-test.add_user('Brian', 'Johnson', 'bdog', 'mypass', 'brain@google.com', 'Balls deep everyday', 'Michael Robert Tony')
-test.add_user('Samwise', 'Gamje', 'hobbit', 'password', 'samthebrave@yahoo.com', 'I love Frodo', 'Sally Robert Davis')
-test.add_user('Peter', 'Holter', 'peter', 'peterpass', 'peter@gmail.com', 'Business school!', 'Michael Jimmy Sam')
-test.add_user('James', 'Vanderbeek', 'dawson', 'creek', 'lame@hotmail.com', "I don't want to wait", 'Sally Robert Tim')
-
-score = Score::Score.new
-if score.score(test, 'bdog') === 3
-	puts 'true'
-else puts 'false'
-end
-if score.score(test, 'hobbit') === 4
-	puts 'true'
-else puts 'false'
-end
-if score.score(test, 'peter') === 0
-	puts 'true'
-else puts 'false'
-end
-if score.score(test, 'dawson') === 4
-puts 'true'
-else puts 'false'
-end
 
